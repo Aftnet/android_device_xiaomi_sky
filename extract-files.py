@@ -9,6 +9,9 @@ from extract_utils.main import (
     ExtractUtilsModule,
 )
 
+namespace_imports = [
+]
+
 module = ExtractUtilsModule(
     namespace_imports=namespace_imports,
 )
