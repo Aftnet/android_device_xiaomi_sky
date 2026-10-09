@@ -10,6 +10,9 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
+    'hardware/qcom',
+    'hardware/xiaomi'
+    'vendor/xiaomi/sky'
 ]
 
 module = ExtractUtilsModule(
